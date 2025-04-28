@@ -15,3 +15,5 @@ Hope it would be useful for someone.
 
 ### [Greedy](src/main/kotlin/greedy)
 
+### [Arrays](src/main/kotlin/arrays/Arrays.ipynb)
+
