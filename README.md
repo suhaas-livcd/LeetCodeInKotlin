@@ -17,3 +17,4 @@ Hope it would be useful for someone.
 
 ### [Arrays](src/main/kotlin/arrays/Arrays.ipynb)
 
+### [Recursion](src/main/kotlin/recursion/Recursion.ipynb)
