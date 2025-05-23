@@ -2,6 +2,7 @@ package main.kotlin.kotlin_cheatsheet
 
 import java.util.*
 import kotlin.collections.ArrayDeque
+import kotlin.collections.first
 
 
 fun main(args: Array<String>) {
