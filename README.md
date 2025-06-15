@@ -20,3 +20,5 @@ Hope it would be useful for someone.
 ### [Recursion](src/main/kotlin/recursion/RecursionBasics.ipynb)
 
 ### [BitManipulation](src/main/kotlin/bit_manipulation/)
+
+### [Graphs](src/main/kotlin/graphs/)
