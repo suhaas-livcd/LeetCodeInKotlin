@@ -22,3 +22,5 @@ Hope it would be useful for someone.
 ### [BitManipulation](src/main/kotlin/bit_manipulation/)
 
 ### [Graphs](src/main/kotlin/graphs/)
+
+### [Dynamic programming](src/main/kotlin/dynamic_programming/)
