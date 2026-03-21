@@ -3,12 +3,12 @@ package binary_search
 import kotlin.test.assertEquals
 
 /**
- * Lower Bound : Smallest idx such that arr[idx] >= x
- * TC : O(Log N)
+ * Lower Bound: Smallest idx such that arr[idx] >= x
+ * TC: O(Log N)
  */
 fun getLowerBound(nums: IntArray, target: Int): Int {
-    var l = 0;
-    var r = nums.size - 1;
+    var l = 0
+    var r = nums.size - 1
     var result = nums.size
 
     while (l <= r) {
@@ -25,11 +25,11 @@ fun getLowerBound(nums: IntArray, target: Int): Int {
 }
 
 /**
- * Lower Bound : Smallest idx such that arr[idx] > x
- * TC : O(Log N)
+ * Upper Bound: Smallest idx such that arr[idx] > x
+ * TC: O(Log N)
  */
 fun getUpperBound(nums: IntArray, target: Int): Int {
-    var l = 0;
+    var l = 0
     var r = nums.size - 1
     var result = nums.size
     while (l <= r) {
@@ -51,10 +51,10 @@ fun getUpperBound(nums: IntArray, target: Int): Int {
  * @return Pair of floor and ceil
  */
 fun getFloorAndCeil(nums: IntArray, target: Int): Pair<Int, Int> {
-    var floor = -1;
-    var ceil = -1;
-    var l = 0;
-    var r = nums.size - 1;
+    var floor = -1
+    var ceil = -1
+    var l = 0
+    var r = nums.size - 1
     while (l <= r) {
         val mid = l + (r - l) / 2
         if (nums[mid] == target) {
