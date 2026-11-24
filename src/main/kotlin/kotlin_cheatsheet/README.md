@@ -198,4 +198,6 @@ fun main(args: Array<String>) {
     println(a) // print 2
     println(b) // print 1
 }
+
+![img.png](img.png)
 ```
